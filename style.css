@@ -13,6 +13,8 @@ h1{
 
 section{
     display:flex;
+    margin-bottom: 200px;
+    margin-top: 20px;
 }
 
 .header-half{
@@ -38,3 +40,15 @@ section{
     background-repeat: no-repeat;
     
 }
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header-half p{
+    padding-right: 5%;
+}
+
+
