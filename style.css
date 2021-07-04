@@ -7,11 +7,15 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40PX;
+}
+
 .color-change{
     color:orange;
 }
 
-section{
+.fexible-container{
     display:flex;
     margin-bottom: 200px;
     margin-top: 20px;
@@ -25,6 +29,8 @@ section{
 .header-half img{
     width:80%;
 }
+
+
 
 .hire-me-button{
     text-decoration: none;
@@ -50,5 +56,44 @@ section{
 .header-half p{
     padding-right: 5%;
 }
+
+.fexible-container-2{
+    display: flex;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-box{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30PX;
+    border-left: 10px orange solid;
+    border-image:linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+.experience-box p{
+    margin-bottom: 100px;
+}
+
+#baby-developer{
+    border-left:7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
 
 
